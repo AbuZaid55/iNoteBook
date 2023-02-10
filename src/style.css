@@ -1,0 +1,87 @@
+.navbar-nav{
+    --bs-navbar-hover-color:white
+}
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+#erros_success{
+    display: none;
+}
+#navbutton-active{
+    color: green;
+}
+.fa-solid.fa-bars{
+    color: white;
+    margin-top: 6px;
+}.fa-solid:hover{
+    color: rgb(209, 207, 207);
+}
+#navbar{
+    height:60px;
+}
+
+
+.nav-link{
+    transition: all 0.5s ease-in-out;
+    color:white
+}
+.nav-link:hover{
+    color:rgb(184, 181, 181);
+}
+.navbar-brandd{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-brandd:hover{
+    color: white;
+    transform: scale(1.2);
+}
+#nav-link-active{
+    color: green;
+}
+#addnotes{
+    width: 47px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#addnotes:hover {
+    width: 160px;
+
+}
+#addnotes  button{
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+#addnotes:hover  button{
+    color: white;
+}
+#deletenotes{
+    color: white;
+}
+#deletenotes:hover{
+    color: red;
+}
+#editi{
+    color: white;
+}
+#editi:hover{
+    color: yellow;
+}
+#addnotesClose{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+#addnotesClose:hover{
+    color: white;
+    background-color: black;
+}
+#savei{
+    color: white;
+}
+#savei:hover{
+    color: green;
+    cursor: pointer;
+}
